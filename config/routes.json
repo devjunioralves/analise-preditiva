@@ -1,0 +1,144 @@
+{
+  "routes": [
+    {
+      "name": "Centro → WEG (Av. Prefeito Waldemar Grubba)",
+      "origin": {
+        "lat": -26.4867,
+        "lon": -49.0777,
+        "address": "Centro, Jaraguá do Sul, SC"
+      },
+      "destination": {
+        "lat": -26.458,
+        "lon": -49.052,
+        "address": "WEG, Jaraguá do Sul, SC"
+      },
+      "description": "Principal corredor trabalho - Centro até WEG",
+      "type": "arterial",
+      "distance_km": 4.8
+    },
+    {
+      "name": "Baependi → Centro (Av. Getúlio Vargas)",
+      "origin": {
+        "lat": -26.505,
+        "lon": -49.065,
+        "address": "Baependi, Jaraguá do Sul, SC"
+      },
+      "destination": {
+        "lat": -26.4867,
+        "lon": -49.0777,
+        "address": "Centro, Jaraguá do Sul, SC"
+      },
+      "description": "Corredor Baependi-Centro via Getúlio Vargas",
+      "type": "arterial",
+      "distance_km": 3.2
+    },
+    {
+      "name": "João Pessoa → Malwee (BR-280)",
+      "origin": {
+        "lat": -26.52,
+        "lon": -49.11,
+        "address": "João Pessoa, Jaraguá do Sul, SC"
+      },
+      "destination": {
+        "lat": -26.475,
+        "lon": -49.095,
+        "address": "Malwee, Jaraguá do Sul, SC"
+      },
+      "description": "Acesso industrial - João Pessoa até Malwee",
+      "type": "highway",
+      "distance_km": 5.6
+    },
+    {
+      "name": "Nereu Ramos → Centro (Rua Reinaldo Rau)",
+      "origin": {
+        "lat": -26.465,
+        "lon": -49.055,
+        "address": "Nereu Ramos, Jaraguá do Sul, SC"
+      },
+      "destination": {
+        "lat": -26.4867,
+        "lon": -49.0777,
+        "address": "Centro, Jaraguá do Sul, SC"
+      },
+      "description": "Corredor Norte-Sul via Reinaldo Rau",
+      "type": "arterial",
+      "distance_km": 3.5
+    },
+    {
+      "name": "Czerniewicz → Shopping",
+      "origin": {
+        "lat": -26.495,
+        "lon": -49.09,
+        "address": "Czerniewicz, Jaraguá do Sul, SC"
+      },
+      "destination": {
+        "lat": -26.482,
+        "lon": -49.074,
+        "address": "Shopping, Centro, Jaraguá do Sul, SC"
+      },
+      "description": "Acesso comercial - Czerniewicz ao Shopping",
+      "type": "arterial",
+      "distance_km": 2.4
+    },
+    {
+      "name": "Rau → Católica Campus (Rua dos Imigrantes)",
+      "origin": {
+        "lat": -26.47,
+        "lon": -49.06,
+        "address": "Rau, Jaraguá do Sul, SC"
+      },
+      "destination": {
+        "lat": -26.5,
+        "lon": -49.08,
+        "address": "Católica Campus, Jaraguá do Sul, SC"
+      },
+      "description": "Corredor estudantil - Rau até Católica",
+      "type": "arterial",
+      "distance_km": 4.1
+    },
+    {
+      "name": "Vila Lalau → Centro Histórico",
+      "origin": {
+        "lat": -26.46,
+        "lon": -49.045,
+        "address": "Vila Lalau, Jaraguá do Sul, SC"
+      },
+      "destination": {
+        "lat": -26.4867,
+        "lon": -49.0777,
+        "address": "Centro Histórico, Jaraguá do Sul, SC"
+      },
+      "description": "Corredor residencial-centro",
+      "type": "arterial",
+      "distance_km": 4.3
+    },
+    {
+      "name": "BR-280 (Sul → Norte)",
+      "origin": {
+        "lat": -26.53,
+        "lon": -49.07,
+        "address": "Acesso Sul BR-280, Jaraguá do Sul, SC"
+      },
+      "destination": {
+        "lat": -26.44,
+        "lon": -49.04,
+        "address": "Acesso Norte BR-280, Jaraguá do Sul, SC"
+      },
+      "description": "Principal via de passagem - BR-280",
+      "type": "highway",
+      "distance_km": 11.2
+    }
+  ],
+  "metadata": {
+    "city": "Jaraguá do Sul",
+    "state": "SC",
+    "country": "BR",
+    "timezone": "America/Sao_Paulo",
+    "collection_frequency_minutes": 15,
+    "rush_hours": {
+      "morning": { "start": 6, "end": 8 },
+      "evening": { "start": 17, "end": 19 }
+    },
+    "notes": "Rotas baseadas em principais corredores de tráfego industrial, comercial e residencial de Jaraguá do Sul"
+  }
+}
