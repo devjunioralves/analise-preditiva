@@ -1,0 +1,66 @@
+{
+  "missing_values": [
+    {
+      "Coluna": "current_speed_kmh",
+      "Total Missing": 235,
+      "Percentual (%)": 1.0198324870893547
+    },
+    {
+      "Coluna": "delay_seconds",
+      "Total Missing": 233,
+      "Percentual (%)": 1.0111530616673177
+    },
+    {
+      "Coluna": "congestion_index",
+      "Total Missing": 223,
+      "Percentual (%)": 0.9677559345571324
+    }
+  ],
+  "duplicates": {
+    "full": "4",
+    "time_route": "4"
+  },
+  "temporal_gaps": 1,
+  "outliers": [
+    {
+      "Coluna": "congestion_index",
+      "Total Outliers": 0,
+      "Percentual (%)": 0.0,
+      "Q1": 11.862979716371683,
+      "Q3": 54.80559348451494,
+      "IQR": 42.942613768143254,
+      "Lower Bound": -52.5509409358432,
+      "Upper Bound": 119.21951413672983
+    },
+    {
+      "Coluna": "current_speed_kmh",
+      "Total Outliers": 2208,
+      "Percentual (%)": 9.582085665928917,
+      "Q1": 34.206488945214474,
+      "Q3": 47.40642142967308,
+      "IQR": 13.199932484458607,
+      "Lower Bound": 14.406590218526564,
+      "Upper Bound": 67.20632015636099
+    },
+    {
+      "Coluna": "travel_time_seconds",
+      "Total Outliers": 1073,
+      "Percentual (%)": 4.656511738922883,
+      "Q1": 285.0204891874539,
+      "Q3": 529.6166915816056,
+      "IQR": 244.59620239415165,
+      "Lower Bound": -81.87381440377357,
+      "Upper Bound": 896.510995172833
+    },
+    {
+      "Coluna": "delay_seconds",
+      "Total Outliers": 2546,
+      "Percentual (%)": 11.048908562253178,
+      "Q1": 24.389860956665473,
+      "Q3": 171.60180554144733,
+      "IQR": 147.21194458478186,
+      "Lower Bound": -196.42805592050732,
+      "Upper Bound": 392.41972241862015
+    }
+  ]
+}

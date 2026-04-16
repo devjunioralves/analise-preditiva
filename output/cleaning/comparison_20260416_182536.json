@@ -1,0 +1,17 @@
+{
+  "original": {
+    "registros": 23043,
+    "colunas": 17,
+    "missing_values": 691
+  },
+  "cleaned": {
+    "registros": 23039,
+    "colunas": 35,
+    "missing_values": 0
+  },
+  "changes": {
+    "registros_removidos": 4,
+    "colunas_adicionadas": 18,
+    "missing_resolvidos": 691
+  }
+}

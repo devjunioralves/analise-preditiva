@@ -1,0 +1,127 @@
+[
+  {
+    "timestamp": "2026-04-16T18:25:36.414816",
+    "action": "Dados carregados",
+    "details": "23043 registros"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.425661",
+    "action": "Duplicatas removidas",
+    "details": "4 registros"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.438094",
+    "action": "Interpola\u00e7\u00e3o: congestion_index",
+    "details": "223 valores"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.446910",
+    "action": "Interpola\u00e7\u00e3o: current_speed_kmh",
+    "details": "235 valores"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.453924",
+    "action": "Interpola\u00e7\u00e3o: delay_seconds",
+    "details": "233 valores"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.459482",
+    "action": "Outliers tratados: current_speed_kmh",
+    "details": "2236 valores winsorized (p5=17.00, p95=73.28)"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.461756",
+    "action": "Outliers tratados: travel_time_seconds",
+    "details": "1073 valores winsorized (p5=204.84, p95=885.60)"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.463952",
+    "action": "Outliers tratados: delay_seconds",
+    "details": "2574 valores winsorized (p5=8.84, p95=576.48)"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.470422",
+    "action": "\u00cdndice temporal padronizado",
+    "details": "Frequ\u00eancia: 0 days 00:15:00"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.487029",
+    "action": "Feature criada",
+    "details": "congestion_ma_1h: M\u00e9dia m\u00f3vel 1 hora"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.487041",
+    "action": "Feature criada",
+    "details": "speed_variation_pct: Varia\u00e7\u00e3o % velocidade"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.487044",
+    "action": "Feature criada",
+    "details": "speed_ratio: Raz\u00e3o velocidade atual/ideal"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.487047",
+    "action": "Feature criada",
+    "details": "congestion_category: Categorias (baixo/moderado/alto)"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.487049",
+    "action": "Feature criada",
+    "details": "hour_sin/hour_cos: Hora c\u00edclica"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.487052",
+    "action": "Feature criada",
+    "details": "day_sin/day_cos: Dia semana c\u00edclico"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.487055",
+    "action": "Feature criada",
+    "details": "delay_per_km: Atraso normalizado por dist\u00e2ncia"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.487061",
+    "action": "Feature criada",
+    "details": "is_weekend: Indicador fim de semana"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.489741",
+    "action": "Normaliza\u00e7\u00e3o",
+    "details": "congestion_index \u2192 StandardScaler"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.492350",
+    "action": "Normaliza\u00e7\u00e3o",
+    "details": "congestion_ma_1h \u2192 StandardScaler"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.495911",
+    "action": "Normaliza\u00e7\u00e3o",
+    "details": "current_speed_kmh \u2192 StandardScaler"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.498240",
+    "action": "Normaliza\u00e7\u00e3o",
+    "details": "travel_time_seconds \u2192 StandardScaler"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.500389",
+    "action": "Normaliza\u00e7\u00e3o",
+    "details": "delay_seconds \u2192 StandardScaler"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.502340",
+    "action": "Normaliza\u00e7\u00e3o",
+    "details": "delay_per_km \u2192 StandardScaler"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.504358",
+    "action": "Normaliza\u00e7\u00e3o",
+    "details": "speed_ratio \u2192 StandardScaler"
+  },
+  {
+    "timestamp": "2026-04-16T18:25:36.506194",
+    "action": "Normaliza\u00e7\u00e3o",
+    "details": "speed_variation_pct \u2192 StandardScaler"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Estatísticas",
+    "insight": "Congestionamento médio: 37.5% (máx: 100.0%)",
+    "timestamp": "2026-04-16T18:26:06.797677"
+  },
+  {
+    "category": "Temporal",
+    "insight": "Dia mais crítico: Qui (45.3%)",
+    "timestamp": "2026-04-16T18:26:08.320737"
+  },
+  {
+    "category": "Temporal",
+    "insight": "Hora de pico: 18h (81.0%)",
+    "timestamp": "2026-04-16T18:26:08.320777"
+  },
+  {
+    "category": "Decomposição",
+    "insight": "Tendência decrescente de 0.1% no período",
+    "timestamp": "2026-04-16T18:26:09.454396"
+  },
+  {
+    "category": "Rotas",
+    "insight": "Rota mais problemática: BR-280 (Sul → Norte) (222s atraso)",
+    "timestamp": "2026-04-16T18:26:10.461618"
+  },
+  {
+    "category": "Rotas",
+    "insight": "Rota mais fluida: João Pessoa → Malwee (BR-280) (57.3 km/h)",
+    "timestamp": "2026-04-16T18:26:10.461640"
+  },
+  {
+    "category": "Correlação",
+    "insight": "Maior correlação positiva: delay_seconds (0.93)",
+    "timestamp": "2026-04-16T18:26:11.028343"
+  },
+  {
+    "category": "Hotspot",
+    "insight": "Pior combinação: BR-280 (Sul → Norte) às 18h (83.2%)",
+    "timestamp": "2026-04-16T18:26:11.887763"
+  },
+  {
+    "category": "Rush Hour",
+    "insight": "Congestionamento 231.1% maior no rush hour",
+    "timestamp": "2026-04-16T18:26:12.741624"
+  }
+]
